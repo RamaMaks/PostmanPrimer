@@ -1,2 +1,2 @@
 # PostmanPrimer
-my example SQL for job placement
+my example Postman for job placement
