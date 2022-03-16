@@ -1,4 +1,27 @@
-POST 
-GET
-PUT
-DELETE 
+POST http://jsonplaceholder.typicode.com/posts
+{
+        "postId": 2,
+        "id": 6,
+        "name": "Superman",
+        "email": "Injusticemail@myrl.com",
+        "body": "Mi pobedim  vseh"
+    }
+GET http://jsonplaceholder.typicode.com/posts/16
+{
+    "userId": 2,
+    "id": 16,
+    "title": "sint suscipit perspiciatis velit dolorum rerum ipsa laboriosam odio",
+    "body": "suscipit nam nisi quo aperiam aut\nasperiores eos fugit maiores voluptatibus quia\nvoluptatem quis ullam qui in alias quia est\nconsequatur magni mollitia accusamus ea nisi voluptate dicta"
+}
+ 
+PUT http://jsonplaceholder.typicode.com/posts/16
+{
+    "userId": 2,
+    "id": 16,
+    "title": "Vse pomenail",
+    "body": "vse pomenial"
+}
+ 
+DELETE http://jsonplaceholder.typicode.com/posts/16
+{}
+ 
